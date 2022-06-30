@@ -43,3 +43,6 @@ For more information on specific columns in the dataset refer to the [column met
 - comments_disabled : Whether people can leave comments 
 - ratings_disabled : Whether people can leave ratings 
 - description : Description of video 
+
+# Time Comparison of EDA Python vs Pandas 
+In this project, we will analyze data using Python and compare execution time using Pandas module. 
