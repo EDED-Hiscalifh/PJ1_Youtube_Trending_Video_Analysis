@@ -45,4 +45,11 @@ For more information on specific columns in the dataset refer to the [column met
 - description : Description of video 
 
 # Project1 : Time Comparison of EDA Python vs Pandas 
-In this project, we will analyze data using Python and compare execution time using Pandas module. 
+
+**Pandas** is a software library written for the Python programming language for data manipulation and analysis. In particular, it ofers data structures and operations for manipulating numerical tables and time series. Pandas is mainly used for data analysis and associated manipulation of tabular data in DataFrames. Pandas allows importing data from various file format such as CSV, JSON, SQL, and Excel.
+
+In this project, we will analyze data using Python and compare execution time using Pandas module. It's obvious that data analysis using Pandas is more faster than using general code, because Pandas module is bulit on C. 
+
+When we import dataset, importing data using python takes about 552.80s and importing data using pandas takes about 1.29s. Importing dataset using pandas more faster than about 427 times using python!
+
+When we explore dataset through seven questions, EDA using pandas are more faster than using python excepting question 3 and 4. Because pandas is module build on C, using pandas while we do data analysis is more efficiently on time and cost. 
