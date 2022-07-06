@@ -53,3 +53,9 @@ In this project, we will analyze data using Python and compare execution time us
 When we import dataset, importing data using python takes about 552.80s and importing data using pandas takes about 1.29s. Importing dataset using pandas more faster than about 427 times using python!
 
 When we explore dataset through seven questions, EDA using pandas are more faster than using python excepting question 3 and 4. Because pandas is module build on C, using pandas while we do data analysis is more efficiently on time and cost. 
+
+# Project2 : Preprocessing_Files_on_CLI 
+
+**Data Munging**, sometimes refereed to as **data munging**, is the process of transforming and mapping data from one "raw" data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics. The goal of data wrangling is to assure quality and useful data. Data analysts typically spend the majority of their time in the process of data wrangling compared to the actual analysis of the data. 
+    
+In this project, We will wrangle files in /Dataset merging files by continents.
