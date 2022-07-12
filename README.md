@@ -52,6 +52,17 @@ In this project, we will analyze data using Python and compare execution time us
 
 When we import dataset, importing data using python takes about 552.80s and importing data using pandas takes about 1.29s. Importing dataset using pandas more faster than about 427 times using python!
 
+| Contents | Execution time using Python | Execution time using Pandas | Execution ratio of Python vs Pandas | 
+|:---:|:---:|:---:|:---:|
+|Time Comparison of Importing Dataset | 552.8068583011627 | 1.292646884918213 | 427.65496497996776 | 
+|Question1| 0.06637978553771973 | 0.029551029205322266 | 2.246276604327691 | 
+|Question2| 0.06817150115966797 | 0.040929555892944336 | 1.665581257172149 | 
+|Question3| 0.16998028755187988 | 1.3795523643493652 | 0.12321408881934486 | 
+|Question4| 0.1865525245666504 | 1.4438941478729248 | 0.1292009700582765 | 
+|Question5| 0.04221820831298828 | 0.007451057434082031 | 5.66606937156022 | 
+|Question6| 0.10105609893798828 | 0.04294633865356445 | 2.3530783323155497 | 
+|Question7| 1.9336814880371094 | 0.9797186851501465 | 1.9737109410552516 | 
+
 When we explore dataset through seven questions, EDA using pandas are more faster than using python excepting question 3 and 4. Because pandas is module build on C, using pandas while we do data analysis is more efficiently on time and cost. 
 
 # Project2 : Preprocessing_Files_on_CLI 
