@@ -69,4 +69,16 @@ When we explore dataset through seven questions, EDA using pandas are more faste
 
 **Data Munging**, sometimes refereed to as **data munging**, is the process of transforming and mapping data from one "raw" data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics. The goal of data wrangling is to assure quality and useful data. Data analysts typically spend the majority of their time in the process of data wrangling compared to the actual analysis of the data. 
     
-In this project, We will wrangle files in /Dataset merging files by continents.
+In this project, purpose of the project is wrangling files in /Dataset merging files by continents. At first, I only use head, tail and redirection command for our purpose. Workprocess of the first task is same as below. 
+
+1. Make new empty file with echo and touch command. 
+2. Extract column from one file and attach to new empty file using head -n +1 command. 
+3. By continent, attach dataset using tail -n +2 command.
+4. Lastly, check the result using wc -l command. 
+
+In second, I only use CSVkits command to do same works. CSVkit is a suite of command-line tools for converting to and working with CSV, the king of table file formats. We can do same task of workflow 1, 2, 3 above using below commands. 
+
+```BASH 
+# Merge SA_youtube_trending_data.csv 
+!csvstack -n country -g "Brazil,Mexico" Dataset/BR_youtube_trending_data.csv Dataset/MX_youtube_trending_data.csv > Wrangled_Dataset/SA_youtube_trending_data2.csv 
+```
